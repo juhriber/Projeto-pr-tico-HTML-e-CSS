@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-image: url(Foto_de_fundo.jpg);
+    background-size: cover;
+}
+  
+form {
+    display: flex;
+    flex-flow: column;
+    background-color: #134c63a1;
+    border-width: 2px; border-style: solid; border-color: #032f40a1; border-radius: 10px; margin: 5px 10px;
+    padding: 20px 20px;
+}
+
+img {
+    border-width: 8px; border-style: solid; border-color: #7fd2f357; border-radius: 50%;
+    width: 100px;
+    
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+}
+
+h2 {
+    text-align: center;
+    color: #a9a9a9;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    margin-top: 2px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 20px;
+}
+
+#foto {
+    display: flex; 
+    height: 110px; 
+    justify-content: space-around; 
+    align-items: center;
+}
+
+i {
+    color: white;
+    transition: all 1s ease 0s;
+}
+
+i:hover {
+    color: #44ec35f1;
+    font-size: 30px;
+    transition-duration: 0.3s;
+}
+
+#icones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#my_git {
+    background-color: #000000a8;
+    padding: 30px 30px;
+    border-width: 2px; border-style: solid; border-color: #032f40a1; border-radius: 50px; margin: 5px 10px;
+}
+
+#git {
+    display: flex;
+    flex-flow: row;
+}
